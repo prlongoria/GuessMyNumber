@@ -24,10 +24,10 @@ document.querySelector('.check').addEventListener('click', function () {
 
   if (!guess) {
     //si no hay nada en guess(en el recuadro)
-    document.querySelector('.message').textContent = 'No number!';
+    document.querySelector('.message').textContent = '⛔No number!';
   }
 
-  //document.querySelector('.message').textContent = ' Correct Number!'; //aquí cambio el texto del message cuando el número sea el correcto
+  //document.querySelector('.message').textContent = '🎉 Correct Number!'; //aquí cambio el texto del message cuando el número sea el correcto
 });
 
 //addEventListener es como un trigger, o eso entendí yo)
